@@ -70,9 +70,6 @@
           <execution>
             <id>default-testCompile</id>
             <configuration>
-<compilerArgs>
-  <arg>-XYZ1</arg>
-</compilerArgs>
               <testExcludes>
                 <exclude>**</exclude>
               </testExcludes>
@@ -564,9 +561,6 @@
                   <goal>testCompile</goal>
                 </goals>
                 <configuration>
-<compilerArgs>
-  <arg>-XYZ2</arg>
-</compilerArgs>
                   <testExcludes>
 				    <!-- TODO make sure all supported ORBs have "RecoveryCreator" tests -->
                     <exclude>**/GenericRecoveryCreatorUnitTest.java</exclude>
@@ -682,9 +676,6 @@
                   <goal>testCompile</goal>
                 </goals>
                 <configuration>
-<compilerArgs>
-  <arg>-XYZ2</arg>
-</compilerArgs>
                   <testExcludes>
                     <!-- TODO make sure all supported ORBs have "RecoveryCreator" tests -->
                     <exclude>**/GenericRecoveryCreatorUnitTest.java</exclude>
@@ -792,9 +783,6 @@
                   <goal>testCompile</goal>
                 </goals>
                 <configuration>
-<compilerArgs>
-  <arg>-XYZ2</arg>
-</compilerArgs>
                   <testExcludes>
                     <exclude>**/GenericRecoveryCreatorUnitTest.java</exclude>
                     <exclude>**/jacorb/**</exclude>
